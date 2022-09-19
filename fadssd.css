@@ -1,0 +1,6 @@
+.active{border:solid 5px black; padding: 50px;}
+.wrapper div{border: solid 2px black; padding: 60px; margin: 15px;}
+.wrapper{display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; grid-template-rows: 1fr 1fr 1fr 1fr; gap:50px 50px;}
+.wrapper nav{border:solid 5px black; ;}
+.item{grid-column-start: 1;grid-column-end: 1;grid-row-start: 1 ;grid-row-end: 6;}
+#a{border:solid 2px black; padding:30px;margin-top: 5px;}
